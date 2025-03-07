@@ -26,11 +26,6 @@ class Read_Config:
         return Read_Config._config_data["admin_login_info"]["password"]
 
     @staticmethod
-    def get_password():
-        Read_Config.lond_config()
-        return Read_Config._config_data["admin_login_info"]["password"]
-
-    @staticmethod
     def get_invalid_username():
         Read_Config.lond_config()
         return Read_Config._config_data["admin_login_info"]["invalid_username"]
